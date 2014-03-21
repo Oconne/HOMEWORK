@@ -1,0 +1,16 @@
+1.JAVA- JAVA is completely object oriented language.
+The rest of the languages are not, including C#.They are procedural
+languages which may perform OOP tasks. 
+
+2.ACTIONSCRIPT -This language is mixture from JAVA and C# (not literally).It is
+not completed yet but it do very good job for developers.
+Its'  functionality and library of methods is poor for now,  compared  to C# and JAVA.
+
+3.C++ -  C++ and C# are similar languages. But C++ has more powerful functionality than C#.
+Their syntax is different and C# has more   methods than C++.
+
+4.C - C is the conceptual mother of all this languages except VBA. For this reason is 
+deeper like functionality and poorest like library methods.
+
+5.VB _ VB is procedural language adapted to OO conceptions. Its' IDE is very simple
+and very easy to use. That's why it is proper for beginners.
