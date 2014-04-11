@@ -1,0 +1,12 @@
+
+ int N=int.Parse(Console.ReadLine()) ;
+
+ double x = double.Parse(Console.ReadLine()) ;
+
+ Console.WriteLine();
+
+ Console.ReadLine();
+
+ for (int i = 1; i <= N; i++) {  ;}
+
+  Console.Write(i+" ");

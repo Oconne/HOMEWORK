@@ -1,0 +1,389 @@
+# Hungarian translation for 4digits
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the 4digits package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 4digits\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-26 19:24+0800\n"
+"PO-Revision-Date: 2012-12-28 05:28+0000\n"
+"Last-Translator: Horvath Sandor <sundamrt@gmail.com>\n"
+"Language-Team: Hungarian <sunda@ewaste.hu>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-07-31 06:06+0000\n"
+"X-Generator: Launchpad (build 16718)\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-Language: Hungarian\n"
+
+#: 4digits.py:51
+msgid "python-gtk2 is required to run 4digits."
+msgstr "python-gtk2 csomag szükséges a 4digits futtatásához."
+
+#: 4digits.py:52
+msgid "No python-gtk2 was found on your system."
+msgstr "Nem találtam a python-gtk2 csomagot a rendszerben."
+
+#: 4digits.py:167
+#, python-format
+msgid "Corrupted preferences file \"%s\", deleting..."
+msgstr "Sérült beállítófájl \"%s\", törlöm...."
+
+#: 4digits.py:243
+msgid "Must input something."
+msgstr "Írj be valamit."
+
+#: 4digits.py:246
+msgid "First digit cannot be zero."
+msgstr "Az első számjegy nem lehet nulla"
+
+#: 4digits.py:251
+msgid "Must input a number."
+msgstr "Számot kell beírni"
+
+#: 4digits.py:254
+msgid "Must input four digits."
+msgstr "Négy számot kell beírni."
+
+#: 4digits.py:257
+msgid "Four digits must be unique."
+msgstr "A számjegyeknek különbözöeknek kell lenniük"
+
+#: 4digits.py:260
+msgid "You've already guessed it."
+msgstr "Már megoldottad."
+
+#: 4digits.py:281
+msgid "You win! :)"
+msgstr "Nyertél! :)"
+
+#: 4digits.py:283
+#, python-format
+msgid "Used %.1f s."
+msgstr "Időd: %.1f s."
+
+#: 4digits.py:295
+#, python-format
+msgid "Haha, you lose. It is %s."
+msgstr "Haha, vesztettél a kód: %s"
+
+#: 4digits.py:298
+#, python-format
+msgid "Wasted %.1f s."
+msgstr "Elhasználtál  %.1f mp-et."
+
+#: 4digits.py:349
+msgid "Timer started..."
+msgstr "Óra elindult...."
+
+#: 4digits.py:409
+msgid "Name"
+msgstr "Neved"
+
+#: 4digits.py:409
+msgid "Score"
+msgstr "Eredmény"
+
+#: 4digits.py:409
+msgid "Date"
+msgstr "Dátum"
+
+#: 4digits.py:447 4digits.glade:721
+msgid "Ready"
+msgstr "Kész"
+
+#: 4digits.py:495 4digits.py:499 4digits.py:534 4digits.py:538
+#: 4digits-text.c:197 4digits-text.c:202
+msgid "Cannot open score file.\n"
+msgstr "A pontszámokat tartalmazó fájl nem elérhető\n"
+
+#: 4digits.py:578
+msgid "4619: You are the luckiest guy on the planet!"
+msgstr "4619: Te vagy a föld legszerencsésebb embere!"
+
+#: 4digits-text.c:56
+msgid ""
+"4digits comes with NO WARRANTY to the extent permitted by law.\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License as\n"
+"published by the Free Software Foundation - version 2. For more\n"
+"information about these matters, see the file named COPYING.\n"
+msgstr ""
+"4digits comes with NO WARRANTY to the extent permitted by law.\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License as\n"
+"published by the Free Software Foundation - version 2. For more\n"
+"information about these matters, see the file named COPYING.\n"
+
+#: 4digits-text.c:62
+msgid "Written by Pan Yongzhi.\n"
+msgstr "Írta: Pan Yongzhi.\n"
+
+#: 4digits-text.c:65
+msgid ""
+"4digits, a guess-the-number game.\n"
+"Usage: 4digits [OPTION] ...\n"
+"\n"
+"You are given eight times to guess a four-digit number. You get\n"
+"one A if its value and position are both correct, and you get one\n"
+"B if only its value is correct. You win the game when you get 4A0B.\n"
+"\n"
+"-v, --version \t display the version of 4digits and exit.\n"
+"-h, -?, --help \t print this help.\n"
+"\n"
+"Report bugs at <https://github.com/fossilet/4digits/issues>."
+msgstr ""
+"4digits, számkitalálós játék\n"
+"Használat: 4digits [OPTION] ...\n"
+"\n"
+"Van 8 lehetőséged hogy kitalálj egy számot\n"
+"1A-t kapsz eredményül ha kitalálsz egy számot és a helyét is\n"
+"1B-t ha csak a számot találod ki. Megnyered a játékot ha 4A0B lesz a "
+"végeredmény\n"
+"\n"
+"-v, --version \t Kijelzi a verziószámot és kilép\n"
+"-h, -?, --help \t Ennek a súgónak az elérése.\n"
+"\n"
+"Report bugs at <https://github.com/fossilet/4digits/issues>."
+
+#: 4digits-text.c:130
+#, c-format
+msgid "Input a 4-digit number:"
+msgstr "Írj be egy négyjegyű számot:"
+
+#: 4digits-text.c:132
+msgid "Something's got wrong, I'd better quit...\n"
+msgstr "Valami baj van, kilépek...\n"
+
+#: 4digits-text.c:141
+#, c-format
+msgid "Input too long!\n"
+msgstr "Túl hosszú karakterlánc!\n"
+
+#: 4digits-text.c:147
+#, c-format
+msgid "Must be a number between 1000 and 9999!\n"
+msgstr "A szám 1000 és 9999 között van!\n"
+
+#: 4digits-text.c:157
+#, c-format
+msgid "Four digits must be unique.\n"
+msgstr "A négy számnak különböznie kell.\n"
+
+#: 4digits-text.c:185
+msgid "Memory allocation error.\n"
+msgstr "Memória kiosztási hiba.\n"
+
+#: 4digits-text.c:244
+msgid ""
+"Usage: 4digits [OPTION]...\n"
+"Try `4digits --help' for more information."
+msgstr ""
+"Használat: 4digits [OPTION]...\n"
+"Próbáld a  `4digits --help'  parancsot a további információkért."
+
+#: 4digits-text.c:273
+#, c-format
+msgid "You've already guessed it.\n"
+msgstr "Már kitaláltad.\n"
+
+#: 4digits-text.c:292
+#, c-format
+msgid "\t %d time left.\n"
+msgid_plural "\t %d times left.\n"
+msgstr[0] "\t %d maradt.\n"
+msgstr[1] "\t %d maradt.\n"
+
+#: 4digits-text.c:298
+#, c-format
+msgid "You win! :) Used %d sec.\n"
+msgstr "Nyertél!:) Használtál %d mp.-et.\n"
+
+#: 4digits-text.c:303
+#, c-format
+msgid ""
+"\n"
+"Haha, you lose. It is "
+msgstr ""
+"\n"
+"Haha, vesztettél. A szám "
+
+#: 4digits.glade:7
+msgid "About 4digits"
+msgstr "4digits névjegy"
+
+#: 4digits.glade:14
+#, fuzzy
+msgid "Copyright (c) 2004- Yongzhi Pan"
+msgstr "Copyright (c) 2004-2012 Yongzhi Pan"
+
+#: 4digits.glade:15
+msgid "A guess-the-number puzzle game"
+msgstr "Számkitalálós játék."
+
+#: 4digits.glade:17
+msgid "4digits website"
+msgstr "4digits weboldal"
+
+#: 4digits.glade:18
+msgid ""
+"4digits is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version.\n"
+"\n"
+"4digits is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"4digits; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA  02110-1301, USA."
+msgstr ""
+"4digits is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version.\n"
+"\n"
+"4digits is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"4digits; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA  02110-1301, USA."
+
+#. Write your names here
+#: 4digits.glade:30
+msgid ""
+"Russian: Sergey Basalaev\n"
+"\n"
+"Launchpad Translators group: https://translations.launchpad.net/+groups/"
+"launchpad-translators"
+msgstr ""
+
+#: 4digits.glade:80
+msgid "_Game"
+msgstr "_Játék"
+
+#: 4digits.glade:107
+msgid "_Scores"
+msgstr "_Pontszámok"
+
+#: 4digits.glade:137
+msgid "_View"
+msgstr "_Nézet"
+
+#: 4digits.glade:147
+msgid "_Toolbar"
+msgstr "_Eszköztár"
+
+#: 4digits.glade:156
+msgid "_Hint Table"
+msgstr "_Tippmezők"
+
+#: 4digits.glade:165
+msgid "_Auto Fill Hints"
+msgstr "_Automatikus tippkitöltés"
+
+#: 4digits.glade:178
+msgid "_Help"
+msgstr "_Súgó"
+
+#: 4digits.glade:229
+msgid "Start a new game"
+msgstr "Új játék indítása"
+
+#: 4digits.glade:230
+msgid "New Game"
+msgstr "Új Játék"
+
+#: 4digits.glade:253
+msgid "Close this window"
+msgstr "Az ablak bezárása"
+
+#: 4digits.glade:254
+msgid "Quit"
+msgstr "Kilépés"
+
+#: 4digits.glade:280
+msgid "_Input:"
+msgstr "_Bevitel:"
+
+#: 4digits.glade:346
+msgid "1"
+msgstr "1"
+
+#: 4digits.glade:357
+msgid "2"
+msgstr "2"
+
+#: 4digits.glade:368
+msgid "3"
+msgstr "3"
+
+#: 4digits.glade:379
+msgid "5"
+msgstr "5"
+
+#: 4digits.glade:390
+msgid "4"
+msgstr "4"
+
+#: 4digits.glade:401
+msgid "6"
+msgstr "6"
+
+#: 4digits.glade:412
+msgid "7"
+msgstr "7"
+
+#: 4digits.glade:423
+msgid "8"
+msgstr "8"
+
+#: 4digits.glade:434
+msgid "Guess"
+msgstr "Tipp"
+
+#: 4digits.glade:445
+msgid "Result"
+msgstr "Eredmény"
+
+#: 4digits.glade:681
+msgid ""
+" Left side:\n"
+" - You uncheck a row if you are sure that this number is not in the answer.\n"
+" - You uncheck a box if you are sure that this number cannot be at this "
+"position.\n"
+"\n"
+" Right side:\n"
+" - You check a row if you are sure that this number must be in the answer.\n"
+" - You check a box if you are sure that this number is at this position if "
+"it is included at all.\n"
+msgstr ""
+" Bal oldal:\n"
+"-Törölj egy sort, ha biztos vagy benne hogy a számjegy nem szerepel a "
+"végeredményben\n"
+"-Törölj egy négyzetet, ha biztos vagy benne hogy az adott számjegy nincs a "
+"jelölt pozícióban\n"
+"\n"
+"Jobb oldal:\n"
+"-Jelölj be egy sort, ha biztos vagy benne hogy a számjegy szerepel a "
+"végeredményben\n"
+"-Jelölj be egy négyzetet, ha biztos vagy benne hogy az adott számjegy melyik "
+"pozícióban van\n"
+
+#: 4digits.glade:755 4digits.glade:801
+msgid "4digits Scores"
+msgstr "4digits Pontszámok"
+
+#~ msgid "Russian: Sergey Basalaev"
+#~ msgstr "Russian: Sergey Basalaev"
