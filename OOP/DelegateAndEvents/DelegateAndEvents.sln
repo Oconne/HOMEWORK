@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndEvents", "DelegateAndEvents\DelegateAndEvents.csproj", "{F26B4C74-6019-4845-9738-CBFB70C76E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer\Timer.csproj", "{F96261C0-62B9-4D8E-BBFC-8BAD2FA12536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F26B4C74-6019-4845-9738-CBFB70C76E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26B4C74-6019-4845-9738-CBFB70C76E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26B4C74-6019-4845-9738-CBFB70C76E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26B4C74-6019-4845-9738-CBFB70C76E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96261C0-62B9-4D8E-BBFC-8BAD2FA12536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96261C0-62B9-4D8E-BBFC-8BAD2FA12536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96261C0-62B9-4D8E-BBFC-8BAD2FA12536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96261C0-62B9-4D8E-BBFC-8BAD2FA12536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
